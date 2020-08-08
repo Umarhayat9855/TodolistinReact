@@ -1,0 +1,27 @@
+.containerHeader{
+    width: 550px;
+    height: 200px;
+    margin-left: 350px;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.font{
+    font-size: 20px;
+    color: teal;
+    text-align: center;
+}
+.input{
+    width: 500px;
+    height: 30px;
+    margin-left: 20px;
+}
+.buttonstyle{
+    width:400px;
+    height:50px;
+    background-color: lightgray;
+    margin:20px;
+    margin-left: 65px;
+    box-shadow: 0 10px 12px 0 gray, 0 10px 30px 0 gray;
+}

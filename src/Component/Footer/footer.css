@@ -1,0 +1,10 @@
+.container{
+    width: '100%';
+    height: 200px;
+    background-color: crimson;
+}
+.textstyling{
+    text-align: center;
+    color:wheat;
+    margin-top: 10px;
+}
