@@ -3,6 +3,7 @@ import Task from './Component/Classes/task';
 import Header from './Component/Header/header';
 import Contant from './Component/Contant/contant';
 import Footer from './Component/Footer/footer';
+import img1 from './Assests/umar.JPG';
 //import Main from './Component/Todo/main';
 import Funtion from './Component/Function/function';
 class App extends Component {
@@ -53,7 +54,7 @@ class App extends Component {
     return ( 
       <div>
         {/* <Funtion/> */}
-        <Header
+         <Header
           Taketask={this.onChange} adddata={this.adddata}
         />
         <Contant
@@ -61,9 +62,12 @@ class App extends Component {
           delete={this.delete}
           edit={this.edittask}
           Taketask={this.onChange}
-        />
-        <Footer/>
+        /> 
+        {/* <Footer/> */}
         {/* <Main/> */}
+        <div>
+          {/* <img src={img1} style={{width:300,height:200,marginLeft:300,alt:"Avatar"}}/> */}
+        </div>
       </div>
      );
   }
